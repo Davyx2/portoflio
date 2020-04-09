@@ -2,6 +2,9 @@
   "name": "portfolio-app",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "^4.2.1"
+  },
   "homepage": "https://dbarochiya.github.io/me",
   "dependencies": {
     "gh-pages": "^2.0.1",
