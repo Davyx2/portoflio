@@ -11,10 +11,9 @@ export default class About extends Component {
                 <div className="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
                 <div className="col-md-12">
                     <div className="about-desc">
-                    <span className="heading-meta">About Us</span>
-                    <h2 className="colorlib-heading">Who Am I?</h2>
-                    <p>I am a computer grad student from IFIR UAC with ICT as my major.I love exploring new technologies and often amazed by the progress we as a human species have mad so far in the recent years (apart from the headphone-jack part!!)</p>
-                    <p>I have started reflecting my ideas and thougths through the medium of words recently so spelling and grammer mistaks are very often.You can write me back if you spot any and don't want to live anymore :P </p>
+                        <span className="heading-meta">About Us</span>
+                        <h2 className="colorlib-heading">Who Am I?</h2>
+                        <p>David SEIDOU license in IT Security in Benin, MTCNA certified in 2018 and CEH certified in 2020. I am passionate about IT, mainly application security. I am also interested in the DevOPS culture. I have implementation knowledge on subjects such as, metasploit, OWASP, Jenkins, AWS, GITLAB CI / CD, Prometheus, Docker swarm, Terraform and Ansible.</p>                   
                     </div>
                 </div>
                 </div>
@@ -38,7 +37,7 @@ export default class About extends Component {
                 </span>
                 <div className="desc">
                     <h3>Web Development </h3>
-                    <p>I have experience building websites and chrome extentions using JavaScript,React,HTML,CSS</p>
+                    <p>I have experience building the Microservice API Server with NodeJS and using React for frontoffice Development</p>
                 </div>
                 </div>
             </div>
@@ -49,7 +48,7 @@ export default class About extends Component {
                 </span>
                 <div className="desc">
                     <h3>IT SECURITY</h3>
-                    <p>As coming from the CS background, I have good grasp over fundamental concepts of DSA</p>
+                    <p> I have knowledge in intruction detection, malware analysis, programming kwow-how, audit and risk management.</p>
                 </div>          
                 </div>
             </div>
@@ -60,7 +59,7 @@ export default class About extends Component {
                 </span>
                 <div className="desc">
                     <h3>Dev Ops</h3>
-                    <p>I am pursuing my internship with DevOps team at Juniper and working with tools like Jenkins, Docker, K8s</p>
+                    <p>I am pursuing my internship with DevOps team at Wanoon and working with tools like Jenkins, DockeR, ECS, EC2, Terraform, Ansible, Prometheus </p>
                 </div>
                 </div>
             </div>
