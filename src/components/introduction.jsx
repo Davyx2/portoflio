@@ -22,7 +22,7 @@ export default class Introduction extends Component {
                   </div>
                 </div>
               </li>
-              <li className="img" style={{backgroundImage: 'url(images/moi.png)'}}>
+              <li className="img" style={{backgroundImage: 'url(images/17.jpg)'}}>
                 <div className="overlay" />
                 <div className="container-fluid">
                   <div className="row">
@@ -37,7 +37,7 @@ export default class Introduction extends Component {
                   </div>
                 </div>
               </li>
-              <li className="img" style={{backgroundImage: 'url(images/moi.png)'}}>
+              <li className="img" style={{backgroundImage: 'url(images/34.jpg)'}}>
                 <div className="overlay" />
                 <div className="container-fluid">
                   <div className="row">
@@ -45,7 +45,7 @@ export default class Introduction extends Component {
                       <div className="slider-text-inner">
                         <div className="desc">
                           <h1> My  <br/>Project ... </h1>
-                          <p><a className="btn btn-primary btn-learn" href="https://github.com/Davyx2" target="_blank" rel="noopener noreferrer">View Blog <i className="icon-book" /></a></p>
+                          <p><a className="btn btn-primary btn-learn" href="https://github.com/Davyx2" target="_blank" rel="noopener noreferrer">View Project <i className="icon-book" /></a></p>
                         </div>
                       </div>
                     </div>
