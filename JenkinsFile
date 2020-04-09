@@ -1,0 +1,42 @@
+pipeline{
+    agent{
+         docker {
+            image 'node:10-alpine' 
+            args '-p 3002:3000' 
+        }
+    }
+    stages{
+        stage("Checkout"){
+            steps{
+                git 'https://github.com/Davyx2/portfolio.git'
+            }
+        }
+        stage("Build"){
+            steps{
+                sh 'npm install' 
+            }
+            post{
+                always{
+                    echo "========always========"
+                }
+                success{
+                    echo "========A executed successfully========"
+                }
+                failure{
+                    echo "========A execution failed========"
+                }
+            }
+        }
+    }
+    post{
+        always{
+            echo "========always========"
+        }
+        success{
+            echo "========pipeline executed successfully ========"
+        }
+        failure{
+            echo "========pipeline execution failed========"
+        }
+    }
+}

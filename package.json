@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "engines": {
-    "node": "^4.2.1"
+    "node": "13.12.0"
   },
-  "homepage": "https://dbarochiya.github.io/me",
+  "homepage": "https://github.com/Davyx2/portfolio.git",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "react": "^16.8.3",
