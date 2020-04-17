@@ -8,7 +8,11 @@ pipeline{
     stages{
         stage("Checkout"){
             steps{
-                git 'https://github.com/Davyx2/portfolio.git'
+                checkout([$class: 'GitSCM',
+    branches: [[name: 'origin/master']],
+    extensions: [[$class: 'WipeWorkspace']],
+    userRemoteConfigs: [[url: 'git@github.com:Davyx2/portfolio.git']]
+])
             }
         }
         stage("Build"){
