@@ -1,46 +1,15 @@
-pipeline{
-    agent{
-         docker {
-            image 'node:10-alpine' 
-            args '-p 3002:3000' 
+pipeline {
+    agent {
+        docker {
+            image 'node:6-alpine' 
+            args '-p 3000:3000' 
         }
     }
-    stages{
-        stage("Checkout"){
-            steps{
-                checkout([$class: 'GitSCM',
-    branches: [[name: 'origin/master']],
-    extensions: [[$class: 'WipeWorkspace']],
-    userRemoteConfigs: [[url: 'git@github.com:Davyx2/portfolio.git']]
-])
-            }
-        }
-        stage("Build"){
-            steps{
+    stages {
+        stage('Build') { 
+            steps {
                 sh 'npm install' 
             }
-            post{
-                always{
-                    echo "========always========"
-                }
-                success{
-                    echo "========A executed successfully========"
-                }
-                failure{
-                    echo "========A execution failed========"
-                }
-            }
-        }
-    }
-    post{
-        always{
-            echo "========always========"
-        }
-        success{
-            echo "========pipeline executed successful========"
-        }
-        failure{
-            echo "========pipeline execution failed========"
         }
     }
 }
