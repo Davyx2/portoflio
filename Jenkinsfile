@@ -13,8 +13,6 @@ node('porto'){
 
       sh 'docker ps'
 
-      sh 'curl localhost:4002'
-
-  } 
+ } 
   }
 }
