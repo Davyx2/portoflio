@@ -9,10 +9,8 @@ node('porto'){
   }
 
   stage('Run image') {
-      docker.image("portofolio").withRun(' -d -p 4002:3000') { c ->
-
+      docker.image("portofolio").withRun('-p 4002:3000') {
       sh 'docker ps'
-
  } 
   }
 }
