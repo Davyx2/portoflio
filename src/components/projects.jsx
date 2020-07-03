@@ -77,7 +77,7 @@ export default class Projects extends Component {
 								<div className="project" style={{backgroundImage: 'url(images/img-5.jpg)'}}>
 									<div className="desc">
 										<div className="con">
-											<h3 style={{fontFamily: ['Courgette', 'cursive'], fontWeight: 'bold', textAlign: 'center', fontSize: '20px'}}><a href="work.html"> Prometheus , grafana and jenkins building</a></h3>
+											<h3 style={{fontFamily: ['Courgette', 'cursive'], fontWeight: 'bold', textAlign: 'center', fontSize: '20px'}}><a href="https://github.com/Davyx2/Monitoring_Container"> Prometheus , grafana and jenkins building</a></h3>
 											<span>DevOPs Monitoring</span>
 											<p className="icon">
 												<span><a href="#"><i className="icon-share3" /></a></span>
@@ -92,7 +92,7 @@ export default class Projects extends Component {
 								<div className="project" style={{backgroundImage: 'url(images/img-6.jpg)'}}>
 									<div className="desc">
 										<div className="con">
-											<h3 style={{fontFamily: ['Courgette', 'cursive'], fontWeight: 'bold', textAlign: 'center', fontSize: '20px'}}><a href="work.html"> Provider gitlab, aws in terraform</a></h3>
+											<h3 style={{fontFamily: ['Courgette', 'cursive'], fontWeight: 'bold', textAlign: 'center', fontSize: '20px'}}><a href="https://github.com/Davyx2/terraform-aws-vpc-ec2"> Provider gitlab, aws in terraform</a></h3>
 											<span> Infrasructure As A Code DevOps </span>
 											<p className="icon">
 												<span><a href="#"><i className="icon-share3" /></a></span>
