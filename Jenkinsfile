@@ -1,33 +1,49 @@
-/*pipeline {
-    agent {
-        docker {
-            image 'node:6-alpine' 
-            args '-p 3000:3000' 
-        }
+pipeline {
+
+  environment {
+    dockerimagename = "dav97/portfolio"
+    dockerImage = ""
+  }
+
+  agent any
+
+  stages {
+
+    stage('Checkout Source') {
+      steps {
+        git 'https://github.com/Davyx2/portoflio.git'
+      }
     }
-    stages {
-        stage('Build') { 
-            steps {
-                sh 'npm install' 
-            }
+
+    stage('Build image') {
+      steps{
+        script {
+          dockerImage = docker.build dockerimagename
         }
+      }
     }
-}*/
-node{
-  def app
-  stage('Clone') {
-      checkout scm
+
+    stage('Pushing Image') {
+      environment {
+               registryCredential = 'dockerhub-registry'
+           }
+      steps{
+        script {
+          docker.withRegistry( 'https://registry.hub.docker.com', registryCredential ) {
+            dockerImage.push("latest")
+          }
+        }
+      }
+    }
+
+    stage('Deploying React.js container to Kubernetes') {
+      steps {
+        script {
+          kubernetesDeploy(configs: "deployment.yaml", "service.yaml")
+        }
+      }
+    }
+
   }
-  stage('Build image') {
-    app=docker.build("portofolio")
-  }
-  /*docker.withRegistry('https://docker.io', 'credentials-id') {
-        def customImage = docker.build("my-image:${env.BUILD_ID}")
-         Push the container to the custom Registry 
-        customImage.push()
-    }*/
-  stage('Run image') {
-      docker.image("portofolio").withRun('-p 4002:3000') {
-      sh 'docker ps'
- }
-  }
+
+}
