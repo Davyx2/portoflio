@@ -4,6 +4,7 @@ metadata:
   name: portfolio #The name of the Kubernetes Deployment to be created in the Kubernetes cluster
   labels:
     app: react-app
+  namespace: portfolio
 spec:
   replicas: 2 #The number of pods to be created in the Kubernetes cluster for the React.js application container
   selector:
@@ -16,10 +17,10 @@ spec:
     spec:
       containers:
       - name: portfolio #The name of the react.js application container
-        image: dav97/portfolio:latest #The Docker image for building the React.js application container
+        image: 137975280244.dkr.ecr.eu-west-3.amazonaws.com/gozem-test:portfolio #The Docker image for building the React.js application container
         ports:
         - containerPort: 3000 #The port for the React.js application   container
-      imagePullSecrets:
-      - name: regcred
+      
+      
 
 

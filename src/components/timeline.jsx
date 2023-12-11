@@ -22,23 +22,7 @@ export default class Timeline extends Component {
                       </div>
                       <div className="timeline-label">
                         <h2> Iviplay  -  Consultant RSI - Prestataire <span> Oct 2022 - Oct 2023</span></h2>
-                        <p>Administration Microsoft O365 *
-
-Etablissement du Connexion SSO entre partenaires *
-
-Administration Exchange Online Microsoft *
-
-Administration Azure AD *
-
-Surveillances des applications clients *
-
-Gestion des ressources AWS avec Terraform *
-
-Déploiement d'applications sur le cloud AWS  *
-Audit et optimisation de coûts sur cloud AWS allant à plus de 50% de réduction sur la facture mensuel  *
-
-Gestion des comptes sur tout les plateformes de déploiement d'application Mobile  *
-Corrections des failles de sécurités réseaux et applications suite à l'audit de SecurityScorecard </p>
+                        <p>Microsoft O365 administration * Establishment of SSO connection between partners * Microsoft Exchange Online administration * Azure AD administration * Client application monitoring * AWS resource management with Terraform * Deployment of applications on the AWS cloud * Audit and cost optimization on AWS cloud going more than 50% off the monthly bill * Account management on all mobile application deployment platforms * Corrections of network and application security vulnerabilities following the SecurityScorecard audit </p>
                       </div>
                     </div>
                   </article>
@@ -49,12 +33,7 @@ Corrections des failles de sécurités réseaux et applications suite à l'audit
                       </div>
                       <div className="timeline-label">
                         <h2>Arcadia Web - Devops GCP - Freelance <span>Jul 2021 - Aug2022</span></h2>
-                        <p>Déploiement d'application sur GKE *
-Monitoring avec vigil sur GKE *
-Configuration et déploiements des automates pour Binance *
-Optimisation et haute disponibilité des jobs pour les trades *
-Mise en place de CI/CD bitbucket vers GKE *
-Mise en place du CI/CD Jenkins vers le cluster GKE GCP </p>
+                        <p>Application deployment on GKE * Monitoring with vigil on GKE * Configuration and deployment of trades for Binance * Optimization and high availability of jobs for trades * Implementation of bitbucket CI/CD to GKE * Implementation of Jenkins CI/CD to the GKE GCP cluster </p>
                       </div>
                     </div>
                   </article>
@@ -65,25 +44,23 @@ Mise en place du CI/CD Jenkins vers le cluster GKE GCP </p>
                       </div>
                       <div className="timeline-label">
                         <h2>OPENSI - OPS & IT Security  - CDD <span>Avr-2021 - Sep 2022</span></h2>
-                        <p>Mise en place de la haute disponibilité sur l'application du Conseil des Ministres basé à la présidence du Bénin *
-
-Surveillance des services NAS, ISCSI, XENCENTER, sur le centre de donnée de la Rep. du Benin  *
-Gestion Citrix Xenserver (HA, Pool , Iscsi , NAS. VM, Backups, DRBD) *
-
-Assistant du projet d'obtention de la certification PCI-DSS chez KKIAPAY
-Installation McAfee ePo Cloud, configuration des agents et applications des stratégies de sécurité  *
-Configuration NFS(client/serveur)  * 
-Mise en place d'un SIEM (sumologic), permettant à l'entreprise de centraliser et traiter tout les logs, systèmes comme applicatifs depuis trois diverses cloud (GCP, Mongo Atlas, Digital Ocean) *
-Gestion avancé des bases de donnés(Postgres, Mongodb)  *
-Développement de solution d'automatisation des taches ( Python + shell) *
-Déploiement d'applications  *
-Déploiement des services sur des applications existantes (KKIAPAY, GOMEDICAL, FNM, TVM,SANLAM..) *
-Gestion des clusters GKE sur Google Cloud. *
-Gestion des clusters sur Microsoft Azure - AKS *
-Configuration des tunnel VPN site-to-site avec les opérateurs Telecom  *
-Configuration des Runners gitlab CI/CD sur kubernetes - GKE  *
-Support Technique niveau 3 *
-Surveillance des applications sur GKE, DigitalOcean. </p>
+                        <p>Implementation of high availability on the application of the Council of Ministers based at the Presidency of Benin *
+Monitoring of NAS, ISCSI, XENCENTER services, on the Rep. data center. from Benin *
+Citrix Xenserver management (HA, Pool, Iscsi, NAS. VM, Backups, DRBD) *
+Project assistant for obtaining PCI-DSS certification at KKIAPAY
+Installing McAfee ePo Cloud, configuring agents, and applying security policies*
+NFS configuration (client/server) *
+Implementation of a SIEM (sumologic), allowing the company to centralize and process all logs, systems and applications from three various clouds (GCP, Mongo Atlas, Digital Ocean) *
+Advanced database management (Postgres, Mongodb) *
+Development of task automation solution (Python + shell) *
+Application deployment *
+Deployment of services on existing applications (KKIAPAY, GOMEDICAL, FNM, TVM, SANLAM..) *
+Managing GKE clusters on Google Cloud. *
+Cluster management on Microsoft Azure - AKS *
+Configuration of site-to-site VPN tunnels with Telecom operators *
+Configuring Gitlab CI/CD Runners on Kubernetes - GKE *
+Level 3 Technical Support *
+Application monitoring on GKE, DigitalOcean. </p>
                       </div>
                     </div>
                   </article>
@@ -94,18 +71,18 @@ Surveillance des applications sur GKE, DigitalOcean. </p>
                       </div>
                       <div className="timeline-label">
                         <h2> OSSPO International - DEVOPS - CDD <span>Dec 2019 - Mar 2021</span></h2>
-                        <p>Développement et déploiement d'applications web *
-Création d'un programme python servant de sources de métrique pour prometheus en récupérant les traces des utilisateurs connectés sur nos serveurs *
-Configurations de Prometheus pour le scrapping des métriques et Grafana pour l'affichage en temps réel des données scrappées *
-Automatisation de déploiement avec Gitlab CI/CD et Jenkins pour nos applications Spring Boot utilisant du maven.
-Installation d'un dépôt d'image prive HARBOR *
-Développement de rôles ansibles pour l'installation de gitlab-runner, docker et autres *
-Implementation du VPC private de quatres instances EC2, de sous réseau prives et d'un internat Gateway en utilisant Terraform *
-Automatisation de la station de lancement d'un drone aquatique pour un client monthabor plaisance *
-Customisation de l'OS ubuntu pour répondre aux contraintes de sécurité et d'expérience utilisateurs *
-Création d'un programme en python permettant de visualiser en temps réel , les données statistiques issues des capteurs du drones *
-Création d'un serveur TCP en python permettant le transfert de données entre la raspberry pi et l'outil de visualisation *
-Liaison réseau entre la station de recharge du drone et l'espace de visualisation</p>
+                        <p>Development and deployment of web applications *
+Creation of a python program serving as metric sources for prometheus by recovering traces of users connected to our servers *
+Configurations of Prometheus for scrapping metrics and Grafana for real-time display of scraped data *
+Deployment automation with Gitlab CI/CD and Jenkins for our Spring Boot applications using maven.
+Installing a private HARBOR image repository*
+Development of ansible roles for installing gitlab-runner, docker and others *
+Implementation of the private VPC of four EC2 instances, private subnets and a Gateway boarding school using Terraform *
+Automation of the launching station of an aquatic drone for a monthabor pleasure boat client *
+Customization of the Ubuntu OS to meet security and user experience constraints *
+Creation of a python program allowing real-time visualization of statistical data from drone sensors *
+Creation of a TCP server in python allowing data transfer between the raspberry pi and the visualization tool *
+Network connection between the drone charging station and the viewing area</p>
                       </div>
                     </div>
                   </article>

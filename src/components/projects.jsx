@@ -14,7 +14,7 @@ export default class Projects extends Component {
 						</div>
 						<div className="row">
 							<div className="col-md-4 animate-box" data-animate-effect="fadeInLeft">
-								<div className="project shadow p-3 mb-5 bg-white rounded" style={{backgroundImage: 'url(images/img-1.jpg)'}}>
+								<div className="project shadow p-3 mb-5 bg-white rounded" style={{backgroundImage: 'url(images/image-terraform-project.png)'}}>
 									<div className="desc">
 										<div className="con">
 											<h3 style={{fontFamily: ['Courgette', 'cursive'], fontWeight: 'bold', textAlign: 'center', fontSize: '20px'}}><a href="https://github.com/Davyx2/gozem-test-infra">Terraform Project</a></h3>
@@ -29,7 +29,7 @@ export default class Projects extends Component {
 								</div>
 							</div>
 							<div className="col-md-4 animate-box" data-animate-effect="fadeInRight">
-								<div className="project" style={{backgroundImage: 'url(images/img-2.jpg)'}}>
+								<div className="project" style={{backgroundImage: 'url(images/ter2.png)'}}>
 									<div className="desc">
 										<div className="con">
 											<h3 style={{fontFamily: ['Courgette', 'cursive'], fontWeight: 'bold', textAlign: 'center', fontSize: '20px'}}><a href="https://github.com/Davyx2/Aws-setup-vpc-eks">Terraform Project</a></h3>
@@ -44,7 +44,7 @@ export default class Projects extends Component {
 								</div>
 							</div>
 							<div className="col-md-4 animate-box" data-animate-effect="fadeInTop">
-								<div className="project" style={{backgroundImage: 'url(images/img-3.jpg)'}}>
+								<div className="project" style={{backgroundImage: 'url(images/images-terraform.jpeg)'}}>
 									<div className="desc">
 										<div className="con">
 											<h3 style={{ fontFamily: ['Courgette', 'cursive'], fontWeight: 'bold', textAlign: 'center', fontSize: '20px'}}><a href="https://github.com/Davyx2/guardduty-sns-terraform">Terraform project</a></h3>
@@ -59,7 +59,7 @@ export default class Projects extends Component {
 								</div>
 							</div>
 							<div className="col-md-4 animate-box" data-animate-effect="fadeInBottom">
-								<div className="project" style={{backgroundImage: 'url(images/img-4.jpg)'}}>
+								<div className="project" style={{backgroundImage: 'url(images/node.webp)'}}>
 									<div className="desc">
 										<div className="con">
 											<h3 style={{fontFamily: ['Courgette', 'cursive'], fontWeight: 'bold', textAlign: 'center', fontSize: '20px'}}><a href="https://github.com/Davyx2/api-gozem-test">API Tutorial Application</a></h3>
@@ -74,7 +74,7 @@ export default class Projects extends Component {
 								</div>
 							</div>
 							<div className="col-md-4 animate-box" data-animate-effect="fadeInLeft">
-								<div className="project" style={{backgroundImage: 'url(images/img-5.jpg)'}}>
+								<div className="project" style={{backgroundImage: 'url(images/node-exporter.png)'}}>
 									<div className="desc">
 										<div className="con">
 											<h3 style={{fontFamily: ['Courgette', 'cursive'], fontWeight: 'bold', textAlign: 'center', fontSize: '20px'}}><a href="https://github.com/Davyx2/formation_aws_monitoring"> Monitoring Project: Build, configuration and deploy monitoring with prometheus, grafana, cadvisor</a></h3>
@@ -89,7 +89,7 @@ export default class Projects extends Component {
 								</div>
 							</div>
 							<div className="col-md-4 animate-box" data-animate-effect="fadeInLeft">
-								<div className="project" style={{backgroundImage: 'url(images/img-6.jpg)'}}>
+								<div className="project" style={{backgroundImage: 'url(images/ansible-banner-1.png)'}}>
 									<div className="desc">
 										<div className="con">
 											<h3 style={{fontFamily: ['Courgette', 'cursive'], fontWeight: 'bold', textAlign: 'center', fontSize: '20px'}}><a href="https://github.com/Davyx2/gozem-test-conf"> Ansible Project </a></h3>
