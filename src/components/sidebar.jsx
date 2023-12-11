@@ -29,7 +29,7 @@ export default class Sidebar extends Component {
                 <li><SocialIcon url="https://www.facebook.com/dav.Godson" style={{height: 25, width: 25 }} /></li>
                 <li><SocialIcon url="https://www.linkedin.com/in/david-seidou-a4781b17b/" style={{height: 25, width: 25 }} /></li>
                 <li><SocialIcon url="https://github.com/Davyx2"  style={{height: 25, width: 25 }} /></li>
-                <li><SocialIcon url="https://medium.com/@seidoudavid97" style={{height: 25, width: 25 }} /></li>
+                <li><SocialIcon url="https://medium.com/@manassehsuccess0" style={{height: 25, width: 25 }} /></li>
               </ul>
             </nav>
             <div className="colorlib-footer">

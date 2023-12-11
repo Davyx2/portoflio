@@ -13,7 +13,8 @@ export default class About extends Component {
                     <div className="about-desc">
                         <span className="heading-meta">About Us</span>
                         <h2 className="colorlib-heading">Who Am I?</h2>
-                        <p>David SEIDOU license in IT Security in Benin, MTCNA certified in 2018 and CEH certified in 2020. I am passionate about IT, mainly application security. I am also interested in the DevOPS culture. I have implementation knowledge on subjects such as, metasploit, OWASP, Jenkins, AWS, GITLAB CI / CD, Prometheus, Docker swarm, Terraform and Ansible.</p>                   
+                        <p>I am David SEIDOU, Cloud and DevOps engineer. I have acquired several experiences over the past 4 years in the field. I am self-taught and in love with challenges in the field. I help you set up a production chain for your product from its development to production. I previously helped 3 clients reduce the monthly cost of their cloud hosting, particularly on AWS. I am available part-time or full-time.
+                       Passionate about IT, mainly application security. I am also interested in the DevOPS culture. I have implementation knowledge on subjects such as, metasploit, OWASP, Jenkins, AWS, GITLAB CI / CD, Prometheus, Docker swarm, Terraform and Ansible.</p>                   
                     </div>
                 </div>
                 </div>
@@ -37,7 +38,7 @@ export default class About extends Component {
                 </span>
                 <div className="desc">
                     <h3>Web Development </h3>
-                    <p>I have experience building the Microservice API Server with NodeJS and using React for frontoffice Development</p>
+                    <p>I have experience building the Microservice API Server with NodeJS. I can also develop API application in Flask. Connect database MongoDB or PostgreSQL</p>
                 </div>
                 </div>
             </div>
@@ -48,7 +49,7 @@ export default class About extends Component {
                 </span>
                 <div className="desc">
                     <h3>IT SECURITY</h3>
-                    <p> I have knowledge in intruction detection, malware analysis, programming kwow-how, audit and risk management.</p>
+                    <p> I have knowledge in PCI-DSS, secure money transaction, intruction detection, malware analysis, programming kwow-how, audit and risk management.</p>
                 </div>          
                 </div>
             </div>
@@ -59,7 +60,7 @@ export default class About extends Component {
                 </span>
                 <div className="desc">
                     <h3>Dev Ops</h3>
-                    <p>I am pursuing my internship with DevOps team at Wanoon and working with tools like Jenkins, DockeR, ECS, EC2, Terraform, Ansible, Prometheus </p>
+                    <p>I am certified kubernetes Administration. I'm always working with AWS and my favorite DevOps tools kubernetes, terraform, Prometheus, Ansible, gitlab-ci </p>
                 </div>
                 </div>
             </div>

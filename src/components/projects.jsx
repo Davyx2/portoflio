@@ -17,12 +17,12 @@ export default class Projects extends Component {
 								<div className="project shadow p-3 mb-5 bg-white rounded" style={{backgroundImage: 'url(images/img-1.jpg)'}}>
 									<div className="desc">
 										<div className="con">
-											<h3 style={{fontFamily: ['Courgette', 'cursive'], fontWeight: 'bold', textAlign: 'center', fontSize: '20px'}}><a href="https://eshopturing.herokuapp.com">Shop turing</a></h3>
-											<span> React JS with using Redux</span>
+											<h3 style={{fontFamily: ['Courgette', 'cursive'], fontWeight: 'bold', textAlign: 'center', fontSize: '20px'}}><a href="https://github.com/Davyx2/gozem-test-infra">Terraform Project</a></h3>
+											<span> Terraform project: Setup Test Infrastrcture deploy in autoscalling group and configure VPC peering between MOngo Atlas container and AWS VPC</span>
 											<p className="icon">
 												<span><a href="#"><i className="icon-share3" /></a></span>
-												<span><a href="#"><i className="icon-eye" /> 100</a></span>
-												<span><a href="#"><i className="icon-heart" /> 49</a></span>
+												<span><a href="#"><i className="icon-eye" /> </a></span>
+												<span><a href="#"><i className="icon-heart" /> </a></span>
 											</p>
 										</div>
 									</div>
@@ -32,12 +32,12 @@ export default class Projects extends Component {
 								<div className="project" style={{backgroundImage: 'url(images/img-2.jpg)'}}>
 									<div className="desc">
 										<div className="con">
-											<h3 style={{fontFamily: ['Courgette', 'cursive'], fontWeight: 'bold', textAlign: 'center', fontSize: '20px'}}><a href="https://hitoeat.herokuapp.com">Dashboard Admin for An App Mobile</a></h3>
-											<span> React admin Framework</span>
+											<h3 style={{fontFamily: ['Courgette', 'cursive'], fontWeight: 'bold', textAlign: 'center', fontSize: '20px'}}><a href="https://github.com/Davyx2/Aws-setup-vpc-eks">Terraform Project</a></h3>
+											<span>Terraform project: Calling existant VPC and EKS module to deploy EKS cluster and save state to s3 </span>
 											<p className="icon">
 												<span><a href="#"><i className="icon-share3" /></a></span>
-												<span><a href="#"><i className="icon-eye" /> 100</a></span>
-												<span><a href="#"><i className="icon-heart" /> 49</a></span>
+												<span><a href="#"><i className="icon-eye" /> </a></span>
+												<span><a href="#"><i className="icon-heart" /> </a></span>
 											</p>
 										</div>
 									</div>
@@ -47,12 +47,12 @@ export default class Projects extends Component {
 								<div className="project" style={{backgroundImage: 'url(images/img-3.jpg)'}}>
 									<div className="desc">
 										<div className="con">
-											<h3 style={{ fontFamily: ['Courgette', 'cursive'], fontWeight: 'bold', textAlign: 'center', fontSize: '20px'}}><a href="http://www.hitotec.com/application-de-rencontre-mehito/">App mobile to meeting mehito</a></h3>
-											<span> IONIC 3</span>
+											<h3 style={{ fontFamily: ['Courgette', 'cursive'], fontWeight: 'bold', textAlign: 'center', fontSize: '20px'}}><a href="https://github.com/Davyx2/guardduty-sns-terraform">Terraform project</a></h3>
+											<span> Terraform project: Enable guardduty , configure metric on cloudwatch and push metric in SNS </span>
 											<p className="icon">
 												<span><a href="#"><i className="icon-share3" /></a></span>
-												<span><a href="#"><i className="icon-eye" /> 100</a></span>
-												<span><a href="#"><i className="icon-heart" /> 49</a></span>
+												<span><a href="#"><i className="icon-eye" /> </a></span>
+												<span><a href="#"><i className="icon-heart" /> </a></span>
 											</p>
 										</div>
 									</div>
@@ -62,12 +62,12 @@ export default class Projects extends Component {
 								<div className="project" style={{backgroundImage: 'url(images/img-4.jpg)'}}>
 									<div className="desc">
 										<div className="con">
-											<h3 style={{fontFamily: ['Courgette', 'cursive'], fontWeight: 'bold', textAlign: 'center', fontSize: '20px'}}><a href="https://chat.wanoon.com">chat Intern Application</a></h3>
-											<span> API NodeJS </span>
+											<h3 style={{fontFamily: ['Courgette', 'cursive'], fontWeight: 'bold', textAlign: 'center', fontSize: '20px'}}><a href="https://github.com/Davyx2/api-gozem-test">API Tutorial Application</a></h3>
+											<span> Building Nodejs  API</span>
 											<p className="icon">
 												<span><a href="#"><i className="icon-share3" /></a></span>
-												<span><a href="#"><i className="icon-eye" /> 100</a></span>
-												<span><a href="#"><i className="icon-heart" /> 49</a></span>
+												<span><a href="#"><i className="icon-eye" /> </a></span>
+												<span><a href="#"><i className="icon-heart" /> </a></span>
 											</p>
 										</div>
 									</div>
@@ -77,12 +77,12 @@ export default class Projects extends Component {
 								<div className="project" style={{backgroundImage: 'url(images/img-5.jpg)'}}>
 									<div className="desc">
 										<div className="con">
-											<h3 style={{fontFamily: ['Courgette', 'cursive'], fontWeight: 'bold', textAlign: 'center', fontSize: '20px'}}><a href="https://github.com/Davyx2/Monitoring_Container"> Prometheus , grafana and jenkins building</a></h3>
-											<span>DevOPs Monitoring</span>
+											<h3 style={{fontFamily: ['Courgette', 'cursive'], fontWeight: 'bold', textAlign: 'center', fontSize: '20px'}}><a href="https://github.com/Davyx2/formation_aws_monitoring"> Monitoring Project: Build, configuration and deploy monitoring with prometheus, grafana, cadvisor</a></h3>
+											<span>DevOps Monitoring</span>
 											<p className="icon">
 												<span><a href="#"><i className="icon-share3" /></a></span>
-												<span><a href="#"><i className="icon-eye" /> 100</a></span>
-												<span><a href="#"><i className="icon-heart" /> 49</a></span>
+												<span><a href="#"><i className="icon-eye" /> </a></span>
+												<span><a href="#"><i className="icon-heart" /> </a></span>
 											</p>
 										</div>
 									</div>
@@ -92,12 +92,12 @@ export default class Projects extends Component {
 								<div className="project" style={{backgroundImage: 'url(images/img-6.jpg)'}}>
 									<div className="desc">
 										<div className="con">
-											<h3 style={{fontFamily: ['Courgette', 'cursive'], fontWeight: 'bold', textAlign: 'center', fontSize: '20px'}}><a href="https://github.com/Davyx2/terraform-aws-vpc-ec2"> Provider gitlab, aws in terraform</a></h3>
-											<span> Infrasructure As A Code DevOps </span>
+											<h3 style={{fontFamily: ['Courgette', 'cursive'], fontWeight: 'bold', textAlign: 'center', fontSize: '20px'}}><a href="https://github.com/Davyx2/gozem-test-conf"> Ansible Project </a></h3>
+											<span> Ansible Project: Many Role for automate configuration on EC2 autoscaling </span>
 											<p className="icon">
 												<span><a href="#"><i className="icon-share3" /></a></span>
-												<span><a href="#"><i className="icon-eye" /> 100</a></span>
-												<span><a href="#"><i className="icon-heart" /> 49</a></span>
+												<span><a href="#"><i className="icon-eye" /> </a></span>
+												<span><a href="#"><i className="icon-heart" /> </a></span>
 											</p>
 										</div>
 									</div>
@@ -106,7 +106,7 @@ export default class Projects extends Component {
 						</div>
 						<div className="row">
 							<div className="col-md-12 animate-box">
-								<p><a href="#" className="btn btn-primary btn-lg btn-load-more">Load more <i className="icon-reload" /></a></p>
+								<p><a href="https://github.com/Davyx2?tab=repositories" className="btn btn-primary btn-lg btn-load-more">Load more <i className="icon-reload" /></a></p>
 							</div>
 						</div>
 					</div>
